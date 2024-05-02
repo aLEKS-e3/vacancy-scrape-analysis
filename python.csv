@@ -1,12 +1,19 @@
 title,location,stack,url
 "Backend Software Engineer (Python) — Relocation To Poland, Portugal, Or Spain","за кордоном, віддалено","['SQL', 'Django', 'Docker', 'Ansible', 'TeamCity', 'OOP']",https://jobs.dou.ua/companies/revolut/vacancies/265218/?from=list_hot
 Senior Software Engineer (Python),віддалено,"['SQL', 'FastAPI', 'Kubernetes', 'AsyncIO']",https://jobs.dou.ua/companies/competera/vacancies/261025/?from=list_hot
+Senior Python Developer,"Київ, Дніпро, Запоріжжя, віддалено","['Ansible', 'Git', 'CI/CD', 'SOLID']",https://jobs.dou.ua/companies/the-gravity-agency/vacancies/266638/
+Experienced React and python developer,віддалено,"['SQL', 'Docker', 'Git', 'Requests', 'REST']",https://jobs.dou.ua/companies/windsor-ai/vacancies/226391/
+Fullstack Python/React Developer,Запоріжжя,"['SQL', 'Django', 'Flask', 'FastAPI', 'MongoDB', 'Docker', 'CI/CD', 'SOLID', 'REST', 'Curio']",https://jobs.dou.ua/companies/elementica/vacancies/258378/
+Senior Python Developer (Desktop),Львів,"['OOP', 'Pytest', 'AsyncIO']",https://jobs.dou.ua/companies/ajax-systems/vacancies/260600/
+Senior Backend Developer (Python),віддалено,"['SQL', 'Flask', 'REST']",https://jobs.dou.ua/companies/intellias/vacancies/266624/
+Senior Backend Engineer,"Львів, віддалено","['SQL', 'REST', 'GraphQL', 'Curio']",https://jobs.dou.ua/companies/simulmedia/vacancies/254996/
 Python Developer/Angular/Fullstack,віддалено,"['SQL', 'FastAPI', 'SQLAlchemy', 'SQLAlchemy', 'CI/CD', 'OOP', 'SOLID']",https://jobs.dou.ua/companies/danavero/vacancies/266597/
 Python Developer: Web Scraping. Scrapy,віддалено,"['SQL', 'Django', 'Celery', 'MySQL', 'Docker']",https://jobs.dou.ua/companies/ipublisher/vacancies/230567/
+Fullstack Developer,віддалено,"['SQL', 'Django', 'Git', 'OOP', 'REST', 'Curio']",https://jobs.dou.ua/companies/ncube/vacancies/266592/
 Senior Python Full stack developer,"Харків, віддалено","['SQL', 'FastAPI', 'Docker', 'REST', 'AsyncIO']",https://jobs.dou.ua/companies/softloft/vacancies/263192/
 Data Team Scraping Expert FPS,Вінниця,"['SQL', 'Pandas', 'MongoDB', 'Docker', 'Git', 'OOP', 'Requests']",https://jobs.dou.ua/companies/temerix/vacancies/266562/
 "Full-Stack Developer (Python/C#/Node.js, JavaScript)",Київ,"['Docker', 'GitHub', 'Git', 'CI/CD', 'SOLID', 'REST']",https://jobs.dou.ua/companies/improvs/vacancies/266548/
-"Python developer (contractor basis, short-term project for 3 months)","Київ, Львів, віддалено",[],https://jobs.dou.ua/companies/techmagic/vacancies/266546/
+"Python developer (contractor basis, short-term project for 3 months)","Київ, Львів, віддалено",,https://jobs.dou.ua/companies/techmagic/vacancies/266546/
 "Middle Python AI Engineer (Generative NLP, AI Agents, Prompting)",віддалено,"['Flask', 'FastAPI', 'TensorFlow', 'PyTorch', 'Scikit-learn']",https://jobs.dou.ua/companies/weblab-technology/vacancies/266545/
 "AQA Engineer (Python, JS)","Львів, Черкаси, віддалено","['GitHub', 'Git', 'CI/CD']",https://jobs.dou.ua/companies/qarea/vacancies/266534/
 Python Developer (Senior) — (Engineering Automatization),віддалено,"['Django', 'Flask', 'Docker', 'Kubernetes', 'CI/CD']",https://jobs.dou.ua/companies/piche-ltd/vacancies/266355/
@@ -25,7 +32,7 @@ Middle Python Engineer,"за кордоном, віддалено","['SQL', 'Dja
 Software Test Engineer (Python),Київ,['Curio'],https://jobs.dou.ua/companies/materialise/vacancies/266021/
 Лектор на курс Python Developer,віддалено,"['SQL', 'Flask', 'Docker', 'Git', 'OOP', 'REST']",https://jobs.dou.ua/companies/chi-it-academy/vacancies/266006/
 Data QA,"Київ, віддалено",['SQL'],https://jobs.dou.ua/companies/rozetka-ua-internet-supermarket/vacancies/251466/
-Python Developer (Mid-Level) — Engineering Automatization,віддалено,[],https://jobs.dou.ua/companies/piche-ltd/vacancies/261506/
+Python Developer (Mid-Level) — Engineering Automatization,віддалено,,https://jobs.dou.ua/companies/piche-ltd/vacancies/261506/
 BIM developer-programmer (Mid-level),віддалено,['Git'],https://jobs.dou.ua/companies/piche-ltd/vacancies/262313/
 Senior Full Stack Engineer (Django/React),"We're a fully remote team thus we do not have an office. Most of our developers are based in Ukraine., віддалено","['SQL', 'Django', 'Celery', 'MySQL', 'MongoDB', 'RabbitMQ', 'GitHub', 'Git', 'OOP', 'REST']",https://jobs.dou.ua/companies/planeks/vacancies/265844/
 Senior Python Developer,"Київ, Харків, Варшава (Польща), віддалено","['FastAPI', 'TensorFlow', 'PyTorch', 'MongoDB', 'OOP']",https://jobs.dou.ua/companies/vilmate/vacancies/265785/
@@ -33,14 +40,14 @@ Senior Full-Stack Django Developer,віддалено,"['Django', 'Git', 'REST']
 Fullstack Engineer (Python/JS/TS) — part time,віддалено,['Curio'],https://jobs.dou.ua/companies/ivy-tech/vacancies/254644/
 Full-Stack Python/JS Developer,віддалено,"['SQL', 'Django', 'FastAPI', 'SQLAlchemy', 'Celery', 'MongoDB', 'SQLAlchemy', 'Docker', 'Git', 'Pytest', 'AsyncIO']",https://jobs.dou.ua/companies/metinvest-digital/vacancies/265728/
 Full-Stack Python Developer,віддалено,"['SQL', 'FastAPI', 'REST']",https://jobs.dou.ua/companies/eastern-peak-software/vacancies/265699/
-Odoo Python Developer — Contractor/Freelancer,No data,"['SQL', 'GitHub', 'Git', 'OOP']",https://jobs.dou.ua/companies/sprinterra/vacancies/265661/
+Odoo Python Developer — Contractor/Freelancer,,"['SQL', 'GitHub', 'Git', 'OOP']",https://jobs.dou.ua/companies/sprinterra/vacancies/265661/
 Senior Python Developer,віддалено,['REST'],https://jobs.dou.ua/companies/hygge-software/vacancies/265660/
 Senior Python Engineer (shifted hours),"Львів, віддалено","['SQL', 'Django', 'Flask', 'Pyramid', 'Pandas', 'NumPy', 'SciPy', 'PyTorch', 'SOLID', 'REST', 'Trio']",https://jobs.dou.ua/companies/devspiration/vacancies/265609/
 Python Developer,віддалено,"['Django', 'REST']",https://jobs.dou.ua/companies/dteam/vacancies/260301/
 Data Engineer/Python Developer,"Київ, віддалено","['SQL', 'Pandas', 'MongoDB']",https://jobs.dou.ua/companies/mycredit/vacancies/265494/
 Senior Python Developer,віддалено,"['Celery', 'Docker', 'GitHub', 'Git', 'SOLID', 'REST']",https://jobs.dou.ua/companies/go-interactive/vacancies/265490/
 Senior AQA Python Engineer (EU),"Барселона (Іспанія), Краків (Польща), віддалено","['CI/CD', 'SOLID', 'Selenium']",https://jobs.dou.ua/companies/chi-software/vacancies/257331/
-Python UAV Developer (Only Kyiv location or Relocate),No data,[],https://jobs.dou.ua/companies/quantum/vacancies/246370/
+Python UAV Developer (Only Kyiv location or Relocate),,,https://jobs.dou.ua/companies/quantum/vacancies/246370/
 Senior Python Developer,"за кордоном, віддалено","['FastAPI', 'Git', 'OOP', 'REST']",https://jobs.dou.ua/companies/numerical-technologies-ltd/vacancies/231293/
 Python Developer,"Київ, Кишинів (Молдова), віддалено","['SQL', 'RabbitMQ', 'Docker', 'GitHub', 'Git', 'CI/CD', 'SOLID', 'REST', 'AsyncIO']",https://jobs.dou.ua/companies/introduct/vacancies/265353/
 Full stuck Phyton/Django/Angular Expert for Yoga Platform (Freelance),віддалено,"['Django', 'SOLID', 'REST']",https://jobs.dou.ua/companies/livekick/vacancies/61413/
@@ -51,7 +58,7 @@ Python Automation QA Engineer (based in Europe),за кордоном,['Pytest']
 AI / ML Python Engineer,віддалено,"['SQL', 'Pandas', 'NumPy', 'TensorFlow', 'PyTorch', 'Scikit-learn', 'MongoDB']",https://jobs.dou.ua/companies/keenethics/vacancies/265138/
 Senior Python Developer,віддалено,"['SQL', 'MongoDB', 'Git']",https://jobs.dou.ua/companies/devico/vacancies/265133/
 Senior Python Engineer,"Лімасол (Кіпр), віддалено","['SQL', 'FastAPI', 'MongoDB', 'Docker', 'CI/CD', 'OOP', 'SOLID', 'REST']",https://jobs.dou.ua/companies/stellartech/vacancies/265075/
-Python Developer,віддалено,[],https://jobs.dou.ua/companies/managed-code/vacancies/265023/
+Python Developer,віддалено,,https://jobs.dou.ua/companies/managed-code/vacancies/265023/
 Mid-Senior Python Developer (DRF/FastAPI),віддалено,"['SQL', 'Django', 'FastAPI', 'Redis', 'Docker', 'REST', 'Django REST']",https://jobs.dou.ua/companies/radity-gmbh/vacancies/265020/
 Python developer (Django),Київ,"['SQL', 'Django']",https://jobs.dou.ua/companies/derzhavne-pidpriyemstvo-infoteh/vacancies/264979/
 "Senior Python Developer (Crypto, USA)","Львів, Чернівці, віддалено","['SQL', 'Pandas']",https://jobs.dou.ua/companies/inventorsoft/vacancies/261684/
@@ -59,7 +66,7 @@ Python Developer,віддалено,"['SQL', 'Django', 'Celery', 'Redis', 'Rabbi
 Django Developer,віддалено,"['SQL', 'Django', 'Flask', 'Celery', 'Redis', 'MySQL', 'MongoDB', 'CI/CD', 'REST']",https://jobs.dou.ua/companies/planeks/vacancies/261768/
 Senior Python developer,"Київ, Львів, Дніпро, Ларнака (Кіпр), Варшава (Польща), віддалено","['FastAPI', 'SOLID', 'GraphQL']",https://jobs.dou.ua/companies/yalantis/vacancies/240514/
 Python Developer,віддалено,"['Pandas', 'TensorFlow', 'Scikit-learn', 'Redis', 'Docker', 'Kubernetes', 'Jenkins', 'Git', 'OOP']",https://jobs.dou.ua/companies/incoalliance/vacancies/254765/
-Team Lead (Full Stack),"Київ, за кордоном, віддалено",[],https://jobs.dou.ua/companies/5blue-software/vacancies/264890/
+Team Lead (Full Stack),"Київ, за кордоном, віддалено",,https://jobs.dou.ua/companies/5blue-software/vacancies/264890/
 Back-end Engineer (Python),віддалено,"['SQL', 'Django', 'Flask', 'Docker', 'Kubernetes', 'Git', 'SOLID', 'REST']",https://jobs.dou.ua/companies/hebron-soft/vacancies/264808/
 Data Analyst,віддалено,['REST'],https://jobs.dou.ua/companies/sd-solutions/vacancies/260193/
 Automation QA Python (Poland),Poland,"['CI/CD', 'Selenium', 'Curio']",https://jobs.dou.ua/companies/lulu-software/vacancies/261590/
@@ -69,10 +76,10 @@ Golang Engineer (with Python and Infra skills) (#1550),"Київ, Львів, Д
 Lead Python/JS Engineer (#1576),"Київ, Львів, Дніпро, Вінниця, Івано-Франківськ, Тернопіль, віддалено","['SQL', 'Django', 'MySQL', 'Selenium']",https://jobs.dou.ua/companies/n-ix/vacancies/261522/
 Викладач/Тренер курсів Python,віддалено,"['SQL', 'Django', 'Git', 'OOP']",https://jobs.dou.ua/companies/cyberbionic-systematics/vacancies/254402/
 Automation Quality Assurance (Python),"Львів, віддалено","['Jenkins', 'Git', 'CI/CD', 'GitLab', 'Pytest', 'Selenium']",https://jobs.dou.ua/companies/quintagroup/vacancies/264771/
-Python Backend Developer,Дніпро,"['SQL', 'Docker', 'Git']",https://jobs.dou.ua/companies/alnicko-development/vacancies/264683/
+Python Backend Developer,Дніпро,"['SQL', 'Docker', 'Git']",https://jobs.dou.ua/companies/canyon-development/vacancies/264683/
 Math + Python Developer,віддалено,['Curio'],https://jobs.dou.ua/companies/numerical-technologies-ltd/vacancies/253273/
-Викладач комп’ютерних дисциплін,Вінниця,[],https://jobs.dou.ua/companies/vinnitska-filiya-step-it-academy/vacancies/255890/
-Python Developer/Part-time Mentor,віддалено,[],https://jobs.dou.ua/companies/mate-academy/vacancies/229356/
+Викладач комп’ютерних дисциплін,Вінниця,,https://jobs.dou.ua/companies/vinnitska-filiya-step-it-academy/vacancies/255890/
+Python Developer/Part-time Mentor,віддалено,,https://jobs.dou.ua/companies/mate-academy/vacancies/229356/
 Fullstack Developer (Python + Vue),віддалено,"['SQL', 'Django', 'OOP', 'REST']",https://jobs.dou.ua/companies/fulcrum/vacancies/260894/
 "Junior С Engineer (Python, CMake)","Київ, Львів, Одеса, Краків (Польща), віддалено",['CI/CD'],https://jobs.dou.ua/companies/plvision/vacancies/264482/
 Python Developer,Київ,"['Django', 'FastAPI', 'Celery', 'Redis', 'Docker']",https://jobs.dou.ua/companies/join-to-it/vacancies/264364/
@@ -86,7 +93,7 @@ CTO,Рига (Латвія),['FastAPI'],https://jobs.dou.ua/companies/thewhyking
 Senior Full Stack Developer (Python + React),віддалено,"['SQL', 'Django', 'Flask', 'REST']",https://jobs.dou.ua/companies/relevant-software/vacancies/264225/
 Python Software Engineer,"Київ, віддалено","['SQL', 'MySQL', 'Docker', 'Kubernetes', 'REST']",https://jobs.dou.ua/companies/sps-ukraine/vacancies/264218/
 Junior/Middle Python Developer (with C++ knowledge),"Київ, віддалено","['Git', 'GitLab']",https://jobs.dou.ua/companies/moduleworks-gmbh/vacancies/231597/
-Junior / Middle Python Developer,Львів,[],https://jobs.dou.ua/companies/smart-rockstars/vacancies/264086/
+Junior / Middle Python Developer,Львів,,https://jobs.dou.ua/companies/smart-rockstars/vacancies/264086/
 QA Automation Engineer (Networking),"Київ, Харків, Львів, Одеса, за кордоном, віддалено","['Ansible', 'Jenkins']",https://jobs.dou.ua/companies/plvision/vacancies/251628/
 Middle Python engineer (#1577),"Київ, Львів, Дніпро, Вінниця, Івано-Франківськ, Тернопіль, віддалено","['SQL', 'MongoDB', 'REST']",https://jobs.dou.ua/companies/n-ix/vacancies/252149/
 Senior Full Stack React/ Django Developer,"Київ, віддалено",['Django'],https://jobs.dou.ua/companies/delphi-llc/vacancies/263991/
@@ -115,6 +122,6 @@ Senior Backend Engineer (Python),"за кордоном, віддалено","['
 Middle Full stack developer (Python+React.js),віддалено,"['SQL', 'Django', 'Flask', 'MySQL', 'MongoDB', 'Docker', 'SOLID', 'REST']",https://jobs.dou.ua/companies/luxe-quality/vacancies/263514/
 Sr Full stack developer (Python+React.js),віддалено,"['SQL', 'Django', 'Flask', 'MySQL', 'MongoDB', 'Docker', 'SOLID', 'REST']",https://jobs.dou.ua/companies/luxe-quality/vacancies/263513/
 Full-Stack (Python + React) Developer for an Online News Media,віддалено,"['SQL', 'MySQL', 'Docker', 'Git']",https://jobs.dou.ua/companies/flexmade/vacancies/263497/
-Керівник відділу впровадження Odoo,віддалено,[],https://jobs.dou.ua/companies/vseukrainski-sistemi-upravlinnya/vacancies/263489/
+Керівник відділу впровадження Odoo,віддалено,,https://jobs.dou.ua/companies/vseukrainski-sistemi-upravlinnya/vacancies/263489/
 Python Developer,Дніпро,"['SQL', 'TensorFlow', 'PyTorch', 'Scikit-learn', 'Git']",https://jobs.dou.ua/companies/cleveroad/vacancies/263486/
 Middle Python Developer,Дніпро,"['SQL', 'Docker', 'Kubernetes', 'Jenkins', 'REST']",https://jobs.dou.ua/companies/comparusua/vacancies/208689/

@@ -1,7 +1,7 @@
 import os
+
 from time import sleep
 from tqdm import tqdm
-
 from dotenv import load_dotenv
 from selenium import webdriver
 from selenium.common.exceptions import (
@@ -61,7 +61,7 @@ class DouVacancyScraper:
         self.detail_driver.get(detail_url)
         return detail_url
 
-    def parse_single_vacancy(self, vacancy: WebElement) -> Vacancy:
+    def scrape_single_vacancy(self, vacancy: WebElement) -> Vacancy:
         detail_url = self.open_detail_page(vacancy)
 
         title = WebDriverWait(self.detail_driver, 2).until(
@@ -82,12 +82,12 @@ class DouVacancyScraper:
                 By.CLASS_NAME, "bi-geo-alt-fill"
             ).text
         except NoSuchElementException:
-            location = "No data"
+            location = None
 
         return Vacancy(
             title=title,
             location=location,
-            stack=stack,
+            stack=stack if stack else None,
             url=detail_url
         )
 
@@ -98,6 +98,6 @@ class DouVacancyScraper:
         vacancies = self.driver.find_elements(By.CLASS_NAME, "l-vacancy")
 
         return [
-            self.parse_single_vacancy(vacancy)
+            self.scrape_single_vacancy(vacancy)
             for vacancy in tqdm(vacancies, desc="Total progress", position=0)
         ]
