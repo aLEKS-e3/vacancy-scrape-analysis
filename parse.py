@@ -1,4 +1,3 @@
-import csv
 import os
 from time import sleep
 from tqdm import tqdm
@@ -15,11 +14,12 @@ from selenium.webdriver.remote.webelement import WebElement
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
+from storage import Vacancy
+
 
 load_dotenv()
 
 TECHNOLOGIES = os.getenv("TECHNOLOGIES")
-VACANCY_FIELDS = ["title", "location", "stack", "url"]
 
 
 class DouVacancyScraper:
@@ -61,7 +61,7 @@ class DouVacancyScraper:
         self.detail_driver.get(detail_url)
         return detail_url
 
-    def parse_single_vacancy(self, vacancy: WebElement) -> dict:
+    def parse_single_vacancy(self, vacancy: WebElement) -> Vacancy:
         detail_url = self.open_detail_page(vacancy)
 
         title = WebDriverWait(self.detail_driver, 2).until(
@@ -84,14 +84,14 @@ class DouVacancyScraper:
         except NoSuchElementException:
             location = "No data"
 
-        return dict(
+        return Vacancy(
             title=title,
             location=location,
             stack=stack,
             url=detail_url
         )
 
-    def scrape_all_vacancies(self) -> list:
+    def scrape_all_vacancies(self) -> list[Vacancy]:
         self.driver.get(self.url)
         self.extract_all_vacancies()
 
@@ -99,20 +99,5 @@ class DouVacancyScraper:
 
         return [
             self.parse_single_vacancy(vacancy)
-            for vacancy in tqdm(
-                vacancies,
-                desc="Total progress",
-                position=0,
-                leave=True
-            )
+            for vacancy in tqdm(vacancies, desc="Total progress", position=0)
         ]
-
-    @staticmethod
-    def csv_writer(filename: str, vacancies: list[dict]) -> None:
-        with open(f"{filename}.csv", "w+") as file:
-            writer = csv.DictWriter(file, fieldnames=VACANCY_FIELDS)
-
-            writer.writeheader()
-
-            for vacancy in vacancies:
-                writer.writerow(vacancy)
