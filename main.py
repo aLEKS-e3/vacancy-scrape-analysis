@@ -2,7 +2,7 @@ from parse import DouVacancyScraper
 from storage import csv_writer
 
 
-def launch_scrape_analysis():
+def launch_scrape_analysis() -> None:
     scraper = DouVacancyScraper()
     vacancies = scraper.scrape_all_vacancies()
     csv_writer("python", vacancies)
