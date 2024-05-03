@@ -27,3 +27,10 @@ def scrape_vacancy_data_by_experience(range: str) -> None:
         csv_writer(filename, vacancies)
     else:
         raise ValueError("Invalid range")
+
+
+if __name__ == "__main__":
+    scrape_general_vacancy_data(PYTHON_URL)
+
+    for range in EXP_RANGES:
+        scrape_vacancy_data_by_experience(range)
