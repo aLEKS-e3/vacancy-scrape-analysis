@@ -24,7 +24,6 @@ TECHNOLOGIES = os.getenv("TECHNOLOGIES")
 
 class DouVacancyScraper:
     def __init__(self) -> None:
-        self.url = "https://jobs.dou.ua/vacancies/?category=Python"
         self.driver = self.get_driver()
         self.detail_driver = self.get_driver()
 
@@ -37,11 +36,15 @@ class DouVacancyScraper:
         return webdriver.Chrome(options=self.modify_options())
 
     def has_more(self) -> bool:
-        pagination = self.driver.find_element(By.CLASS_NAME, "more-btn")
+        try:
+            pagination = self.driver.find_element(By.CLASS_NAME, "more-btn")
+        except NoSuchElementException:
+            return False
+
         if "display: none;" in pagination.get_attribute("outerHTML"):
             return False
 
-        return True
+        return pagination.is_displayed()
 
     def extract_all_vacancies(self) -> None:
         while self.has_more():
@@ -91,8 +94,8 @@ class DouVacancyScraper:
             url=detail_url
         )
 
-    def scrape_all_vacancies(self) -> list[Vacancy]:
-        self.driver.get(self.url)
+    def scrape_all_vacancies(self, url: str) -> list[Vacancy]:
+        self.driver.get(url)
         self.extract_all_vacancies()
 
         vacancies = self.driver.find_elements(By.CLASS_NAME, "l-vacancy")
