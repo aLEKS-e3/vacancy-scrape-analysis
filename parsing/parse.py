@@ -17,7 +17,6 @@ from selenium.webdriver.support import expected_conditions as EC
 from storage import Vacancy
 
 
-<<<<<<< HEAD:parsing/parse.py
 load_dotenv()
 
 TECHNOLOGIES = os.getenv("TECHNOLOGIES")
@@ -105,8 +104,3 @@ class DouVacancyScraper:
             self.scrape_single_vacancy(vacancy)
             for vacancy in tqdm(vacancies, desc="Total progress", position=0)
         ]
-=======
-class DouVacancyScraper:
-    def __init__(self) -> None:
-        pass
->>>>>>> 36158139c6118e86fb07183ab97ad3776beeb09b:parse.py
